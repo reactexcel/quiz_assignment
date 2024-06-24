@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the purpose of CSS media queries?",
+    "option1": "To link HTML and CSS files",
+    "option2": "To specify the layout of a webpage",
+    "option3": "To apply different styles based on device characteristics",
+    "option4": "To define variables for CSS styles",
+    "ans": 3,
+    "feedback": "CSS media queries are used to tailor the styling of a webpage based on the characteristics of the device it is being viewed on."
+  },
+  {
+    "question": "What is the the CSS 'box-sizing' property used for?",
+    "option1": "To control the display of box elements",
+    "option2": "To specify the shadow effects of box elements",
+    "option3": "To include or exclude padding and border in the element's total width and height",
+    "option4": "To set the transparency level of box elements",
+    "ans": 3,
+    "feedback": "The 'box-sizing' property determines how the total width and height of an element are calculated, including or excluding padding and border."
+  },
+  {
+    "question": "What does the 'async' attribute do in a script tag?",
+    "option1": "It ensures the script loads synchronously",
+    "option2": "It specifies that the script should execute asynchronously",
+    "option3": "It delays the script execution until all other scripts have loaded",
+    "option4": "It prevents the script from executing until explicitly called",
+    "ans": 2,
+    "feedback": "The 'async' attribute in a script tag allows the script to be executed asynchronously, independently of other scripts and HTML parsing."
+  },
+  {
+    "question": "What does 'localStorage' in JavaScript do?",
+    "option1": "Stores data in the browser's session only",
+    "option2": "Stores data with no expiration date",
+    "option3": "Stores data that can be accessed across different browser tabs",
+    "option4": "Stores data on the server-side",
+    "ans": 2,
+    "feedback": "'localStorage' in JavaScript stores data persistently within the browser with no expiration date, accessible across sessions."
+  },
+  {
+    "question": "What is the difference between '==' and '===' operators in JavaScript?",
+    "option1": "They are identical in functionality",
+    "option2": "'===' compares both value and type, while '==' compares only the value",
+    "option3": "'===' compares both value and type, while '==' compares only the type",
+    "option4": "'==' is used for strict comparison, while '===' is used for loose comparison",
+    "ans": 2,
+    "feedback": "'===' (strict equality) checks both the value and type of operands, ensuring they are identical. '==' (loose equality) only compares values, possibly performing type coercion."
+  },
+  {
+    "question": "What is the role of Babel in frontend development?",
+    "option1": "To manage project dependencies",
+    "option2": "To transpile JavaScript code to ensure compatibility with older browsers",
+    "option3": "To optimize images and other assets",
+    "option4": "To provide a framework for building user interfaces",
+    "ans": 2,
+    "feedback": "Babel is used to convert modern JavaScript code into older versions, ensuring compatibility with older browsers that lack support for newer language features."
+  },
+  {
+    "question": "What is the role of 'data-' attributes in HTML5?",
+    "option1": "To store custom data attributes for JavaScript to access",
+    "option2": "To define the type of data being processed",
+    "option3": "To specify the encoding of data within the HTML document",
+    "option4": "To control the alignment of data within tables",
+    "ans": 1,
+    "feedback": "'data-' attributes in HTML5 are used to store custom data that can be accessed by JavaScript and CSS."
+  },
+  {
+    "question": "What is 'event bubbling' in JavaScript?",
+    "option1": "A method for handling mouse events",
+    "option2": "The propagation of events from child to parent elements",
+    "option3": "The process of preventing default event behavior",
+    "option4": "The capture phase of event propagation",
+    "ans": 2,
+    "feedback": "Event bubbling in JavaScript refers to the propagation of events from child to parent elements in the DOM hierarchy."
+  },
+  {
+    "question": "What does the 'contenteditable' attribute do in HTML?",
+    "option1": "Allows users to edit the content of a webpage",
+    "option2": "Controls the visibility of the webpage content",
+    "option3": "Defines the font style of the webpage content",
+    "option4": "Specifies the background color of editable elements",
+    "ans": 1,
+    "feedback": "The 'contenteditable' attribute in HTML allows users to edit the content of elements directly within the webpage."
+  },
+  {
+    "question": "What is the purpose of the 'z-index' property in CSS?",
+    "option1": "To control the display order of flex items",
+    "option2": "To specify the opacity of elements",
+    "option3": "To control the stacking order of positioned elements",
+    "option4": "To define the animation duration of elements",
+    "ans": 3,
+    "feedback": "The 'z-index' property in CSS controls the stacking order of elements, determining which elements appear in front of others when they overlap."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is the purpose of the HTML <canvas> element?",
+    "option1": "To draw vector graphics",
+    "option2": "To create interactive animations",
+    "option3": "To render 3D graphics",
+    "option4": "To display bitmap images",
+    "ans": 1,
+    "feedback": "The <canvas> element is primarily used to draw graphics, including charts, graphs, and other visual elements, typically using JavaScript."
+  },
+  {
+    "question": "Explain the difference between synchronous and asynchronous JavaScript.",
+    "option1": "Synchronous means executing one operation at a time, while asynchronous allows multiple operations to overlap.",
+    "option2": "Synchronous is faster than asynchronous in execution.",
+    "option3": "Asynchronous is single-threaded, synchronous is multi-threaded.",
+    "option4": "Synchronous operations require callbacks, asynchronous operations don't.",
+    "ans": 1,
+    "feedback": "Synchronous JavaScript executes one operation at a time, blocking further execution until it completes. Asynchronous JavaScript allows multiple operations to overlap, improving responsiveness."
+  },
+  {
+    "question": "What is a Web Worker in HTML5?",
+    "option1": "A dedicated web server for handling client requests",
+    "option2": "A JavaScript file running in the background, without affecting the performance of the page",
+    "option3": "A user interface component for multitasking in web applications",
+    "option4": "A server-side script for handling database operations",
+    "ans": 2,
+    "feedback": "Web Workers are scripts that run in the background independently of the main page. They are useful for performing complex calculations or operations without blocking the UI."
+  },
+  {
+    "question": "Explain the CSS box model and its components.",
+    "option1": "It includes padding, border, and margin around each HTML element.",
+    "option2": "It represents how browsers render elements with width, height, padding, border, and margin properties.",
+    "option3": "It specifies the positioning of elements on the page.",
+    "option4": "It defines the hierarchy of styles in a CSS file.",
+    "ans": 2,
+    "feedback": "The CSS box model defines how elements are structured and displayed in browsers, including their dimensions (width and height) and spacing (padding, border, margin)."
+  },
+  {
+    "question": "What are pseudo-elements in CSS?",
+    "option1": "They are elements created dynamically using JavaScript.",
+    "option2": "They are elements that are not directly accessible via JavaScript.",
+    "option3": "They are used to style specified parts of an element, such as the first line or first letter.",
+    "option4": "They are HTML elements that only exist in CSS.",
+    "ans": 3,
+    "feedback": "Pseudo-elements in CSS allow you to style specific parts of an element, like the first line of a paragraph (::first-line) or the first letter of a heading (::first-letter)."
+  },
+  {
+    "question": "Explain the concept of event delegation in JavaScript.",
+    "option1": "It is a technique to register multiple event listeners on a single element.",
+    "option2": "It involves handling events in nested HTML structures by delegating them to parent elements.",
+    "option3": "It allows events to propagate through the DOM and trigger multiple listeners.",
+    "option4": "It is a way to handle asynchronous events in JavaScript.",
+    "ans": 2,
+    "feedback": "Event delegation in JavaScript involves attaching a single event listener to a parent element, which then handles events that originate from its child elements. This is useful for dynamically created elements."
+  },
+  {
+    "question": "What are the differences between cookies, local storage, and session storage?",
+    "option1": "Cookies are stored indefinitely, local storage is temporary, and session storage is deleted when the browser is closed.",
+    "option2": "Cookies have a size limit, local storage and session storage do not.",
+    "option3": "Cookies are accessible only on the server-side, local storage and session storage are client-side only.",
+    "option4": "Cookies are only accessible in HTTPS, local storage and session storage are accessible in HTTP.",
+    "ans": 2,
+    "feedback": "Cookies, local storage, and session storage are all client-side storage options in web browsers. The main difference is that cookies have size limits (usually 4KB) and are sent with every request, while local storage and session storage can store larger amounts of data (up to 5MB or more) and are not automatically sent with every request."
+  },
+  {
+    "question": "What is the difference between == and === operators in JavaScript?",
+    "option1": "== performs type coercion, === does not.",
+    "option2": "== compares value and type, === compares only value.",
+    "option3": "== is faster than === in execution.",
+    "option4": "== checks for deep equality, === checks for shallow equality.",
+    "ans": 1,
+    "feedback": "In JavaScript, the == operator performs type coercion, which means it tries to convert the operands to the same type before making the comparison. On the other hand, === (strict equality) compares both value and type without type coercion."
+  },
+  {
+    "question": "Explain the concept of CORS (Cross-Origin Resource Sharing) in the context of web development.",
+    "option1": "It is a security feature that restricts cross-site scripting attacks.",
+    "option2": "It allows resources on a web page to be requested from another domain outside the domain from which the first resource was served.",
+    "option3": "It ensures secure storage of cookies and other client-side data.",
+    "option4": "It optimizes caching of resources in the browser.",
+    "ans": 2,
+    "feedback": "CORS (Cross-Origin Resource Sharing) is a security feature implemented by web browsers that allows web pages to request resources from another domain outside the domain from which the first resource was served. It enables more secure and controlled sharing of resources across different origins."
+  },
+  {
+    "question": "What are the benefits of using a CSS preprocessor like Sass or Less?",
+    "option1": "They reduce the need for external CSS frameworks.",
+    "option2": "They allow for the use of variables, mixins, and nested rules, making CSS more maintainable.",
+    "option3": "They automatically optimize CSS for faster page rendering.",
+    "option4": "They enable real-time collaboration between designers and developers.",
+    "ans": 2,
+    "feedback": "CSS preprocessors like Sass or Less extend CSS with features like variables, mixins, and nested rules, which improve code maintainability and efficiency. They help manage large stylesheets and streamline the development process."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "option1": "Hyper Text Markup Language",
+    "option2": "Hyperlinks and Text Markup Language",
+    "option3": "Home Tool Markup Language",
+    "option4": "Hyper Text Manipulation Language",
+    "ans": 1,
+    "feedback": "HTML stands for Hyper Text Markup Language, which is used to create and structure the content of web pages."
+  },
+  {
+    "question": "Which programming language is known as the 'mother of all languages'?",
+    "option1": "Python",
+    "option2": "C",
+    "option3": "Java",
+    "option4": "Assembly Language",
+    "ans": 2,
+    "feedback": "C is often referred to as the 'mother of all languages' because many other programming languages have been influenced by its design."
+  },
+  {
+    "question": "What is the output of the following code snippet? \n console.log(1 + '2' + 3 + 4);",
+    "option1": "10",
+    "option2": "1234",
+    "option3": "1034",
+    "option4": "7",
+    "ans": 2,
+    "feedback": "In JavaScript, when the + operator is used with a string, it concatenates the values as strings. Therefore, '1' + '2' becomes '12', then '12' + 3 becomes '123', and finally '123' + 4 becomes '1234'."
+  },
+  {
+    "question": "In JavaScript, what is a closure?",
+    "option1": "A function that calls itself",
+    "option2": "An inner function that has access to the outer function's variables",
+    "option3": "A function defined within another function",
+    "option4": "A function passed as an argument to another function",
+    "ans": 2,
+    "feedback": "A closure is an inner function that has access to the variables in the outer (enclosing) function's scope chain even after the outer function has finished executing."
+  },
+  {
+    "question": "Which of the following sorting algorithms has the highest time complexity in worst case?",
+    "option1": "Bubble Sort",
+    "option2": "Merge Sort",
+    "option3": "Quick Sort",
+    "option4": "Insertion Sort",
+    "ans": 3,
+    "feedback": "Quick Sort has a worst-case time complexity of O(n^2) when implemented with poor pivot selection strategies, although it typically performs O(n log n) on average."
+  },
+  {
+    "question": "What does CSS stand for?",
+    "option1": "Creative Style Sheets",
+    "option2": "Cascading Style Sheets",
+    "option3": "Computer Style Sheets",
+    "option4": "Colorful Style Sheets",
+    "ans": 2,
+    "feedback": "CSS stands for Cascading Style Sheets, which is used for describing the presentation of a document written in HTML or XML."
+  },
+  {
+    "question": "Which device is required for the Internet connection?",
+    "option1": "Modem",
+    "option2": "Router",
+    "option3": "LAN Cable",
+    "option4": "Pen Drive",
+    "ans": 1,
+    "feedback": "A modem is required to establish a connection to the Internet, typically by converting digital data from a computer into a form that can be transmitted over telephone or cable lines."
+  },
+  {
+    "question": "What is the output of the following code snippet? \n console.log(typeof NaN);",
+    "option1": "'number'",
+    "option2": "'NaN'",
+    "option3": "'undefined'",
+    "option4": "'string'",
+    "ans": 1,
+    "feedback": "The typeof NaN in JavaScript returns 'number', because NaN (Not-a-Number) is considered a numeric data type in JavaScript."
+  },
+  {
+    "question": "In object-oriented programming, what is encapsulation?",
+    "option1": "Hiding the implementation details of an object",
+    "option2": "Combining data and functions into a single unit",
+    "option3": "Creating multiple instances of a class",
+    "option4": "Inheriting properties from another class",
+    "ans": 1,
+    "feedback": "Encapsulation in object-oriented programming is the bundling of data (attributes) and methods (functions) that operate on the data into a single unit (class), and restricting access to some of the object's components."
+  },
+  {
+    "question": "What does the 'git clone' command do in Git?",
+    "option1": "Creates a new Git repository",
+    "option2": "Deletes a Git repository",
+    "option3": "Makes a copy of an existing Git repository",
+    "option4": "Merges two branches in a Git repository",
+    "ans": 3,
+    "feedback": "'git clone' is used to create a copy of an existing Git repository, including all of its files, branches, and commit history."
+  }
+]
